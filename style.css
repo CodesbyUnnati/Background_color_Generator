@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  text-transform: capitalize;
+  color: white;
+  background-color: black;
+  font-size: 1rem;
+  font-weight: 600;
+  outline: none;
+  padding: 10px 10px;
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+button:hover {
+  color: white;
+  background-color: #282c34;
+}
